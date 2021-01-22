@@ -3,9 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Store Locator App</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
     
+    <div class="menu">
+        <div class="my_business_profile">
+            <h3>My Business</h3>
+        </div>
+        <nav class="sidemenu">
+            <ul>
+                <li>
+                    <h3>Navegar</h3>
+                </li>
+                <li>
+                    <a href="/">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        Negocios cerca de mí
+                    </a>
+                </li>
+                <li>
+
+                </li>
+                <hr>
+                <li>
+                    <h3>Buscar:</h3>
+                </li>
+                <li>
+                    <label for="">Buscar por nombre</label>
+                    <input class="form-control" type="text" name="" id="" >
+                </li>
+                <li>
+                    <label for="">Buscar por Categoría</label>
+                    <select class="form-control" name="" id="">
+                        <option value="" selected disabled>Selecciona una Categoría</option>
+                        <option value="">Restaurantes</option>
+                        <option value="">Farmacias</option>
+                        <option value="">Salones de belleza</option>
+                        <option value="">Bancos</option>
+                        <option value="">Discotecas</option>
+                        <option value="">Supermercado</option>
+                        <option value="">Ropa y Calzado</option>
+                        <option value="">Perfumeria</option>
+                        <option value="">Electrónica y Electrodomésticos</option>
+                        <option value="">Automovilístico</option>
+                    </select>
+                </li>
+                <hr>
+                <li>
+                    <h3>Para Vendedores</h3>
+                </li>
+                <li>
+                    <i class="fa fa-building"></i>
+                    <a href="">
+                        Registrar mi empresa
+                    </a>
+                </li>
+                <li>
+                    <i class="fa fa-user"></i>
+                    <a href="">
+                        Iniciar Sesión
+                    </a>
+                </li>
+                <li>
+                    <i class="fa fa-gears"></i>
+                    <a href="">
+                        Configuración
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <h3>En la App</h3>
+                </li>
+                <li>
+                    <p><i class="fa fa-sticky-note"></i> Añadir Reseña a este negocio</p>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="">
+                        Contacto / Soporte
+                    </a>
+                </li>
+                <li>
+                    <i class="fa fa-bookmark"></i>
+                    <a href="">
+                        Favoritos
+                    </a>
+                </li>
+            </ul>
+            <div class="text-center mb-4">
+                @BusinessVe 2020
+            </div>
+        </nav>
+    </div>
+  
+
+    <div class="backdrower" style="display: none;" onclick="hideSideMenu()">
+
+    </div>
+
+
+    <div class="bg-primary py-3 d-flex justify-content-end align-items-center">
+        <div class="hamburger mr-3" onclick="displaySideMenu()">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </div>
+
+    <main class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <div class="business">
+                    <img src="assets/79534777_698420344018022_4501293266015007633_n.jpg" alt="Imagen del negocio">
+                    <h3>McDonalds de la Castellana</h3>
+                    <hr>
+                    <p>
+                        <span>
+                            Ubicación: 
+                        </span>
+                        La Castellana, al lado del teatro B.O.D, Al lado de la torre DIAGEO.
+                    </p>
+                    <p>
+                        <span>
+                            Horario
+                        </span>
+                        8:00 Am. - 8: 00 Pm.
+                    </p>
+                    <div class="mb-3 d-flex justify-content-between align-items-center">
+                        <span>
+                            Número de Teléfono
+                        </span>
+                        <a class="btn btn-link" href="">
+                            +0414 502 6055 
+                        </a>
+                    </div>
+                    <div class="mb-3 d-flex justify-content-between align-items-center">
+                        <span>
+                            Redes Sociales
+                        </span>
+                        <div class="rrss">
+                            <div class="rs" style="background-color: rgb(202, 0, 202);">
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                            <div style="background-color: darkblue" class="rs">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div style="background: darkgreen;" class="rs">
+                                <i class="fa fa-whatsapp"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>
+                        <span>
+                            Reseñas
+                        </span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        (120)
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="">
+                            Ir al sitio Web
+                        </a>
+                        <a class="btn btn-info" href="">
+                            + Añadir reseña
+                        </a>
+                    </div>
+
+
+                    <h4>Comentarios:</h4>
+                    <div class="coments">
+                        <div class="row coment">
+                            <div class="col-3">
+                                <img src="assets/default.png" alt="Imagen"/>
+                            </div>
+                            <div class="col-9">
+                                <span class="profile_title">
+                                    Eduardo Herrera
+                                </span>
+                                <br>
+                                <i>Local impecable, comida regular, aún así sigo asistiendo al local para comer con mis hijos</i>
+                                <div class="comment_stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row coment">
+                            <div class="col-3">
+                                <img src="assets/default.png" alt="Imagen"/>
+                            </div>
+                            <div class="col-9">
+                                <span class="profile_title">
+                                    Leslie Ramos
+                                </span>
+                                <br>
+                                <i>Las hamburguesas son regulares, los precios son más altos que en otros sitios, pero sigue siendo bueno para quitar el hambre.</i>
+                                <div class="comment_stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center my-3">
+                            <a href="">
+                                Ver más comentarios
+                            </a>
+                        </div>
+                        <hr>
+                        <h3>Dirección</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.031563159095!2d-66.85344678520171!3d10.498177992510684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a59adc0d5b9d5%3A0x346889dc9e2f37b8!2sMcDonald&#39;s!5e0!3m2!1ses!2sve!4v1611284979282!5m2!1ses!2sve" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="bg-dark text-center text-white py-2">
+        Footer
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

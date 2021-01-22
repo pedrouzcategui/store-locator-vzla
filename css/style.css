@@ -54,7 +54,130 @@ p{
     font-weight: bold;
 }
 
-.goto_button{
 
+.menu{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: left .3s ease-in-out;
+    width: 80%;
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: rgb(0, 0, 59);
+    z-index: 100;
+}
+
+.my_business_profile{
+    background-image: url('../assets/mcdonalds-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+}
+
+.my_business_profile > h3{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.61);
+    color: white;
+}
+
+.sidemenu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr{
+    margin: 20px 0px;
+    background-color: white;
+}
+
+.sidemenu > ul{
+    margin: 20px;
+    padding: 0px;
+    list-style: none;
+}
+
+.sidemenu > ul > li{
+    margin: 10px 0px;
+}
+
+.sidemenu > ul > li > a{
+    color: white;
+}
+
+.backdrower{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.business img{
+    max-width: 700px;
+    height: auto;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+.business h3{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+
+.business h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.business span{
+    font-weight: bold;
+}
+
+.coment{
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 10px 5px rgba(196, 196, 196, 0.3);
+}
+
+.coment p{
+    margin: 0px;
+}
+
+.coment img{
+    width: 100%;
+}
+
+.coment .profile_title{
+    font-weight: bold;
+}
+
+.comment_stars{
+    color: rgb(219, 219, 18);
+}
+
+.rrss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs{
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 0px 5px;
 }
 
